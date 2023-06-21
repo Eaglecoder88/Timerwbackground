@@ -1,0 +1,88 @@
+
+.dial {
+    height: 400px;
+    width: 400px;
+}
+
+#start {
+    background-color: bisque;
+    color: purple;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 80px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+   #start:hover {
+       background-color: yellow;
+}
+
+#start:active {
+    background-color: orange;
+    box-shadow: 0 5px #680;
+    transform: translateY(-15px);
+}
+
+#pause{
+    background-color: blue;
+    color: yellow;
+    width: 80px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#pause:hover {
+        background-color: black;
+}
+
+#pause:active {
+    background-color:black;
+    box-shadow: 0 5px #680;
+    transform: translateY(15px);
+}
+
+.timer {
+    position: relative;
+    display: inline-block;
+}
+
+.timer input {
+    display: block;
+    border: 5px;
+    width: 240px;
+    font-size: 90px;
+    padding: 10px;
+    text-align: center;
+}
+
+.timer button:focus {
+    outline: solid;
+}
+
+.timer input:focus {
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+}
+
+.controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-color: blue;
+}
+
